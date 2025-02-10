@@ -1,0 +1,31 @@
+(base) pc-05@pc05-ThinkCentre-M71e:~$ nasm -f elf32 milab3.asm -o milab3.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ld -m elf_i386 -s -o milab3 milab3.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ./milab3
+
+ MENU
+1. Hex to BCD
+2. BCD to Hex
+3. Exit
+Enter your choice: 1
+
+Enter Hex Number: 2f
+
+Equivalent BCD Number: ABCD
+0000 1010 1011 1100 1101
+ MENU
+1. Hex to BCD
+2. BCD to Hex
+3. Exit
+Enter your choice: 2
+
+Enter BCD Number: 0001 0010 0011 0100 0101
+
+Equivalent Hex Number: 12345
+ MENU
+1. Hex to BCD
+2. BCD to Hex
+3. Exit
+Enter your choice: 3
+(base) pc-05@pc05-ThinkCentre-M71e:~$ 
+
+

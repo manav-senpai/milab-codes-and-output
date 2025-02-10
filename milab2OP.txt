@@ -1,0 +1,9 @@
+(base) pc-05@pc05-ThinkCentre-M71e:~$ nasm -f elf32 milab2.asm -o milab2.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ld -m elf_i386 -s -o milab2 milab2.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ./milab2
+
+
+Enter the string: apple
+Length of the string is: 60(base) pc-05@pc05-ThinkCentre-M71e:~$ 
+
+

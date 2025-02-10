@@ -1,0 +1,11 @@
+(base) pc-05@pc05-ThinkCentre-M71e:~$ nasm -f elf32 milab1.asm -o milab1.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ld -m elf_i386 -s -o milab1 milab1.o
+(base) pc-05@pc05-ThinkCentre-M71e:~$ ./milab1
+
+The Count of Positive No: 
+0000003
+The Count of Negative No: 
+0000002
+(base) pc-05@pc05-ThinkCentre-M71e:~$ 
+
+
